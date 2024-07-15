@@ -891,3 +891,251 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.07.15-04.56.58:964][  1]LogAssetRegistry: Asset discovery search completed in 7.3069 seconds
 [2024.07.15-04.56.58:973][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2024.07.15-04.57.00:306][  5]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.15-04.57.09:082][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Common/Player/BP_PlayerCharacter.BP_PlayerCharacter
+[2024.07.15-04.57.09:400][ 31]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2024.07.15-04.57.10:763][ 31]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.15-04.57.12:359][163]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.07.15-04.57.33:217][304]Cmd: MAP LOAD FILE="../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Content/Levels/Dev/MovementDev.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.07.15-04.57.33:241][304]LightingResults: New page: Lighting Build
+[2024.07.15-04.57.33:241][304]LoadErrors: New page: Loading map: MovementDev.umap
+[2024.07.15-04.57.33:245][304]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-04.57.33:245][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-04.57.33:245][304]MapCheck: New page: Map Check
+[2024.07.15-04.57.33:245][304]LightingResults: New page: Lighting Build
+[2024.07.15-04.57.33:271][304]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-04.57.33:280][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2024.07.15-04.57.33:318][304]LogAudio: Display: Audio Device (ID: 1) registered with world 'MovementDev'.
+[2024.07.15-04.57.33:319][304]LogAIModule: Creating AISystem for world MovementDev
+[2024.07.15-04.57.33:451][304]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.07.15-04.57.33:491][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.07.15-04.57.33:506][304]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.07.15-04.57.33:507][304]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.201ms to complete.
+[2024.07.15-04.57.33:507][304]LogFileHelpers: Loading map 'MovementDev' took 0.289
+[2024.07.15-04.57.36:336][553]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.15-04.57.36:344][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-04.57.36:345][553]PIE: New page: PIE session: MovementDev (Jul 14, 2024, 4:57:36 PM)
+[2024.07.15-04.57.36:347][553]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.07.15-04.57.36:349][553]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.07.15-04.57.36:349][553]LogPlayLevel: Creating play world package: /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-04.57.36:371][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022318s)
+[2024.07.15-04.57.36:372][553]LogAIModule: Creating AISystem for world MovementDev
+[2024.07.15-04.57.36:373][553]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2024.07.15-04.57.36:373][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Dev/MovementDev.MovementDev to /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev (0.024080s)
+[2024.07.15-04.57.36:401][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.07.15-04.57.36:403][553]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-04.57.36:403][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.15-04.57.36:403][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-04.57.36:404][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-04.57.36:404][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-04.57.36:404][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-04.57.36:404][553]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.15-04.57.36:409][553]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.15-04.57.36:409][553]LogAudioMixer: Display: 1: FrontRight
+[2024.07.15-04.57.36:431][553]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2024.07.15-04.57.36:432][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-04.57.36:432][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-04.57.36:432][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-04.57.36:432][553]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.15-04.57.36:432][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.15-04.57.36:432][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.15-04.57.36:435][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.15-04.57.36:435][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.15-04.57.36:435][553]LogInit: FAudioDevice initialized.
+[2024.07.15-04.57.36:435][553]LogAudio: Display: Audio Device (ID: 2) registered with world 'MovementDev'.
+[2024.07.15-04.57.36:447][553]LogLoad: Game class is 'GameModeBase'
+[2024.07.15-04.57.36:450][553]LogWorld: Bringing World /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev up for play (max tick rate 0) at 2024.07.14-22.57.36
+[2024.07.15-04.57.36:451][553]LogWorld: Bringing up level for play took: 0.002781
+[2024.07.15-04.57.36:451][553]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2024.07.15-04.57.36:460][553]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2024.07.15-04.57.36:461][553]PIE: Server logged in
+[2024.07.15-04.57.36:463][553]PIE: Play in editor total start time 0.121 seconds.
+[2024.07.15-04.59.10:067][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-04.59.10:067][512]LogWorld: BeginTearingDown for /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-04.59.10:067][512]LogWorld: UWorld::CleanupWorld for MovementDev, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-04.59.10:067][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-04.59.10:077][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-04.59.10:082][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-04.59.10:115][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-04.59.10:115][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-04.59.10:117][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-04.59.10:131][512]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2024.07.15-04.59.10:156][513]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.07.15-04.59.42:704][163]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.15-04.59.42:711][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-04.59.42:712][163]PIE: New page: PIE session: MovementDev (Jul 14, 2024, 4:59:42 PM)
+[2024.07.15-04.59.42:745][163]LogPlayLevel: Creating play world package: /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-04.59.42:766][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020275s)
+[2024.07.15-04.59.42:767][163]LogAIModule: Creating AISystem for world MovementDev
+[2024.07.15-04.59.42:767][163]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2024.07.15-04.59.42:767][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Dev/MovementDev.MovementDev to /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev (0.021798s)
+[2024.07.15-04.59.42:805][163]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2024.07.15-04.59.42:808][163]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-04.59.42:808][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.15-04.59.42:808][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-04.59.42:809][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-04.59.42:809][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-04.59.42:809][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-04.59.42:809][163]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.15-04.59.42:814][163]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.15-04.59.42:814][163]LogAudioMixer: Display: 1: FrontRight
+[2024.07.15-04.59.42:827][163]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2024.07.15-04.59.42:827][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-04.59.42:827][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-04.59.42:827][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-04.59.42:828][163]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.15-04.59.42:828][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.15-04.59.42:828][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.15-04.59.42:829][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.15-04.59.42:829][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.15-04.59.42:829][163]LogInit: FAudioDevice initialized.
+[2024.07.15-04.59.42:829][163]LogAudio: Display: Audio Device (ID: 3) registered with world 'MovementDev'.
+[2024.07.15-04.59.42:842][163]LogLoad: Game class is 'GameModeBase'
+[2024.07.15-04.59.42:846][163]LogWorld: Bringing World /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev up for play (max tick rate 0) at 2024.07.14-22.59.42
+[2024.07.15-04.59.42:847][163]LogWorld: Bringing up level for play took: 0.003353
+[2024.07.15-04.59.42:847][163]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2024.07.15-04.59.42:850][163]PIE: Server logged in
+[2024.07.15-04.59.42:851][163]PIE: Play in editor total start time 0.141 seconds.
+[2024.07.15-05.01.37:627][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.01.37:627][760]LogWorld: BeginTearingDown for /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-05.01.37:627][760]LogWorld: UWorld::CleanupWorld for MovementDev, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-05.01.37:628][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.01.37:642][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-05.01.37:648][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.01.37:679][760]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-05.01.37:680][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.01.37:681][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.01.37:684][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.01.37:690][760]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2024.07.15-05.01.37:718][761]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.07.15-05.04.47:583][791]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2024.07.15-05.04.47:657][791]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2024.07.15-05.04.47:807][791]LogSavePackage: Moving '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Saved/BP_PlayerCharacter4DC8D593495570886FF2459EAAEA26F7.tmp' to '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Content/Common/Player/BP_PlayerCharacter.uasset'
+[2024.07.15-05.04.47:867][791]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2024.07.15-05.04.47:867][791]LogContentValidation: Display: Validating Blueprint /Game/Common/Player/BP_PlayerCharacter.BP_PlayerCharacter
+[2024.07.15-05.04.49:481][929]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.15-05.04.49:488][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-05.04.49:488][929]PIE: New page: PIE session: MovementDev (Jul 14, 2024, 5:04:49 PM)
+[2024.07.15-05.04.49:525][929]LogPlayLevel: Creating play world package: /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-05.04.49:545][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020189s)
+[2024.07.15-05.04.49:547][929]LogAIModule: Creating AISystem for world MovementDev
+[2024.07.15-05.04.49:547][929]LogPlayLevel: PIE: World Init took: (0.001648s)
+[2024.07.15-05.04.49:547][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Dev/MovementDev.MovementDev to /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev (0.022054s)
+[2024.07.15-05.04.49:589][929]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2024.07.15-05.04.49:592][929]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-05.04.49:592][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.15-05.04.49:592][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-05.04.49:593][929]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-05.04.49:593][929]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-05.04.49:593][929]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-05.04.49:593][929]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.15-05.04.49:600][929]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.15-05.04.49:600][929]LogAudioMixer: Display: 1: FrontRight
+[2024.07.15-05.04.49:611][929]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2024.07.15-05.04.49:612][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-05.04.49:612][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-05.04.49:612][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-05.04.49:614][929]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.15-05.04.49:614][929]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.15-05.04.49:614][929]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.15-05.04.49:615][929]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.15-05.04.49:615][929]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.15-05.04.49:615][929]LogInit: FAudioDevice initialized.
+[2024.07.15-05.04.49:615][929]LogAudio: Display: Audio Device (ID: 4) registered with world 'MovementDev'.
+[2024.07.15-05.04.49:629][929]LogLoad: Game class is 'GameModeBase'
+[2024.07.15-05.04.49:632][929]LogWorld: Bringing World /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev up for play (max tick rate 0) at 2024.07.14-23.04.49
+[2024.07.15-05.04.49:632][929]LogWorld: Bringing up level for play took: 0.002728
+[2024.07.15-05.04.49:632][929]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2024.07.15-05.04.49:636][929]PIE: Server logged in
+[2024.07.15-05.04.49:637][929]PIE: Play in editor total start time 0.15 seconds.
+[2024.07.15-05.05.07:046][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.05.07:046][977]LogWorld: BeginTearingDown for /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-05.05.07:046][977]LogWorld: UWorld::CleanupWorld for MovementDev, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-05.05.07:047][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.05.07:057][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-05.05.07:063][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.05.07:096][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-05.05.07:097][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.05.07:098][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.05.07:101][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.05.07:107][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2024.07.15-05.05.07:136][978]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.07.15-05.05.28:863][169]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2024.07.15-05.05.28:937][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2024.07.15-05.05.29:044][169]LogSavePackage: Moving '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Saved/BP_PlayerCharacter394EAA964AF252546D291C8A35770E11.tmp' to '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Content/Common/Player/BP_PlayerCharacter.uasset'
+[2024.07.15-05.05.29:099][169]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2024.07.15-05.05.29:099][169]LogContentValidation: Display: Validating Blueprint /Game/Common/Player/BP_PlayerCharacter.BP_PlayerCharacter
+[2024.07.15-05.05.37:013][457]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.15-05.05.37:020][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-05.05.37:021][457]PIE: New page: PIE session: MovementDev (Jul 14, 2024, 5:05:37 PM)
+[2024.07.15-05.05.37:056][457]LogPlayLevel: Creating play world package: /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-05.05.37:077][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021027s)
+[2024.07.15-05.05.37:078][457]LogAIModule: Creating AISystem for world MovementDev
+[2024.07.15-05.05.37:078][457]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2024.07.15-05.05.37:078][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Dev/MovementDev.MovementDev to /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev (0.022724s)
+[2024.07.15-05.05.37:117][457]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2024.07.15-05.05.37:118][457]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-05.05.37:118][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.15-05.05.37:118][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-05.05.37:119][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-05.05.37:119][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-05.05.37:119][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-05.05.37:119][457]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.15-05.05.37:124][457]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.15-05.05.37:124][457]LogAudioMixer: Display: 1: FrontRight
+[2024.07.15-05.05.37:136][457]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2024.07.15-05.05.37:137][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-05.05.37:137][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-05.05.37:137][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-05.05.37:137][457]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.15-05.05.37:137][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.15-05.05.37:137][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.15-05.05.37:139][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.15-05.05.37:139][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.15-05.05.37:139][457]LogInit: FAudioDevice initialized.
+[2024.07.15-05.05.37:139][457]LogAudio: Display: Audio Device (ID: 5) registered with world 'MovementDev'.
+[2024.07.15-05.05.37:148][457]LogLoad: Game class is 'GameModeBase'
+[2024.07.15-05.05.37:151][457]LogWorld: Bringing World /Game/Levels/Dev/UEDPIE_0_MovementDev.MovementDev up for play (max tick rate 0) at 2024.07.14-23.05.37
+[2024.07.15-05.05.37:151][457]LogWorld: Bringing up level for play took: 0.002638
+[2024.07.15-05.05.37:151][457]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2024.07.15-05.05.37:155][457]PIE: Server logged in
+[2024.07.15-05.05.37:156][457]PIE: Play in editor total start time 0.136 seconds.
+[2024.07.15-05.05.43:076][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.05.43:076][154]LogWorld: BeginTearingDown for /Game/Levels/Dev/UEDPIE_0_MovementDev
+[2024.07.15-05.05.43:076][154]LogWorld: UWorld::CleanupWorld for MovementDev, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-05.05.43:077][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.05.43:090][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-05.05.43:095][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-05.05.43:128][154]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-05.05.43:128][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.05.43:129][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.15-05.05.43:132][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-05.05.43:137][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2024.07.15-05.05.43:163][155]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.07.15-05.05.44:291][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2024.07.15-05.05.44:395][266]LogSavePackage: Moving '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Saved/MovementDev692860AD45838939B16E089F8A4A3724.tmp' to '../../../../../../Users/Benny/Documents/GitHub/GhostRider/GhostRider/Content/Levels/Dev/MovementDev.umap'
+[2024.07.15-05.05.44:436][266]AssetCheck: New page: Asset Save: MovementDev
+[2024.07.15-05.05.44:436][266]LogContentValidation: Display: Validating World /Game/Levels/Dev/MovementDev.MovementDev
